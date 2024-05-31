@@ -22,13 +22,13 @@ H is the observer, and the line going through H and C is the Z-axis: the line di
 E is the centre of the Viewport (screen). IE is the line perpendicular to the line through HC that passes through E: this is also the X axis.
 
 Thus, to represent this Viewport, the following inputs would be provided in the Translation input section -
-X: the length of IE. Positive values refer to points on the RHS of the observer.
+X: the length of IE. Positive values refer to points on the RHS of the observer. ## I understand RHS but I do not understand what positive values refer to points on the RHS of the observer mean. Does positive value means a vector pointing toward the screen?
 Y: this is the height dimension, which is not represented in this image. This is zero if the centre of the screen is the same height as the observer.
-Z: the length of HI x -1. Negative values refer to points in front of the observer.
+Z: the length of HI x -1. Negative values refer to points in front of the observer. ## I built up a triangular-based prism with three monitors and animals sit in the centre of the prism and face the centre of one monitor. Does that mean the Z value of that monitor would be negative and then the Z value of other two monitor would be positive?
 
 Additionally, C and D are the central and peripheral edges of the Viewport respectively. Therefore, the appropriate inputs in the Rotation section are -
 X: This is Pitch: there is no pitch angle.
-Y: This is Yaw, which is the dimension in which the screen is angled. The angle here is lambda (converted to radians) * -1 (i.e. -0.78539818525314331). Negative angles refer to points on the RHS of the observer.
+Y: This is Yaw, which is the dimension in which the screen is angled. The angle here is lambda (converted to radians) * -1 (i.e. -0.78539818525314331). Negative angles refer to points on the RHS of the observer. ## similiar to the Translation input section, I do not understand what Negative angles refer to points on the RHS of the observer. I built up a triangular-based prism with three monitors and animals sit in the centre of the prism and face the centre of one monitor. Does that mean the Yaw degree of that monitor would be 0 or 180 and the Yaw degree of the other two monitor would be +/- 120 degrees?
 Z: This is Roll: there is no roll angle.
 
 The Width input is the DC distance in metric units (e.g. cm). 
